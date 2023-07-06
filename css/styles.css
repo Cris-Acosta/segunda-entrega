@@ -167,7 +167,12 @@ section {
         
     }
 .iconos li { 
-    padding: 30px;
+    padding: 40px;
+    font-size: 30px; /*tamaño de los iconos*/
+}
+
+.abajo {
+    padding-top: 60px;
 }
 
 .parte-2 {
@@ -189,8 +194,6 @@ footer {
         background-color: #FF4081;
         color: #fffeff;
 }
-
-@media screen and (min-width:300px) {
     .abrir-menu,
     .cerrar-menu {
         display: block;
@@ -233,7 +236,7 @@ footer {
         color: #ecececec;
     }
 
-}
+
 
 
 @media (min-width: 1024px) {
