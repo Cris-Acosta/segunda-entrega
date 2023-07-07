@@ -60,7 +60,7 @@ main {
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #FCE4EC;
+    background-color: #ffffff;
     color: #0f0f0f;
     font-size: 18px;
     line-height: 1.2;
@@ -81,7 +81,7 @@ p{
     text-align: center;
 }
 img {
-    max-width: 90%;
+    max-width: 80%;
     border-radius: 700px;
 }
 
@@ -140,7 +140,7 @@ section {
         text-align: center;
     }
 .presentacion-img img {
-        width: 300px;
+        width: 10px;
     }
 .btn-cv {
         background-color: #0ff2fa;
@@ -153,25 +153,7 @@ section {
  .btn-cv:hover {
     background-color: rgb(41, 137, 137);
  }
- /*
-.iconos {
-
-        width: 300px;
-        height: 300px;
-        
-
-        justify-content: space-between;
-        display: flex;
-        padding: 50px 0px;
-        margin-bottom: 68px;
-        align-items: center;
-        
-    }
-.iconos li { 
-    padding: 40px;
-    font-size: 30px; /*tamaño de los iconos*/
-} */
-
+ /*iconos de redes*/
 :root {
     --envelope: #e10600;
     --github: #171515;
@@ -218,7 +200,7 @@ section {
 }
 
 .redes-container ul li .email:hover{
-    background: #e10600;
+    background: #3b5999;
 }
 .redes-container ul li .github:hover{
     background: #171515;
@@ -231,7 +213,7 @@ section {
 }
 
 .parte-2 {
-    background-color: #c9b2ba;
+    background-color: #c8e8ea;
     border-radius: 10px;
     padding: 10px;
 }
@@ -247,7 +229,7 @@ footer {
         bottom: 0;
         width: 100%;
         height: 90px;
-        background-color: #FF4081;
+        background-color: #ff6b6b;
         color: #fffeff;
 }
     .abrir-menu,
@@ -259,10 +241,10 @@ footer {
         cursor: pointer;
     }
     .abrir-menu{
-        color: #ff00ff;
+        color: #005059;
     }
     .cerrar-menu{
-        color: #ff00ff;
+        color: #ff6b6b;
     }
 
     .nav {
