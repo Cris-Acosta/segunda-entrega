@@ -150,9 +150,15 @@ section {
         display: inline-block;
         text-align: center;
  }
- .btn-cv:hover {
+ .btn-cv:hover, .active {
     background-color: rgb(41, 137, 137);
+    transition: 0.3s;
  }
+
+ .active {
+    background-color: #FFFF00;
+ }
+
  /*iconos de redes*/
 :root {
     --envelope: #e10600;
@@ -213,12 +219,12 @@ section {
 }
 
 .parte-2 {
-    background-color: #c8e8ea;
+    background-color: #00FFFF;
     border-radius: 10px;
     padding: 10px;
 }
 
-/*menu hamburguesa*/
+
 footer {
         display: flex;
         justify-content: center;
@@ -229,50 +235,9 @@ footer {
         bottom: 0;
         width: 100%;
         height: 90px;
-        background-color: #ff6b6b;
+        background-color: #FF00FF;
         color: #fffeff;
 }
-    .abrir-menu,
-    .cerrar-menu {
-        display: block;
-        border: 0;
-        font-size: 2rem;
-        background-color: transparent;
-        cursor: pointer;
-    }
-    .abrir-menu{
-        color: #005059;
-    }
-    .cerrar-menu{
-        color: #ff6b6b;
-    }
-
-    .nav {
-        opacity: 0;
-        visibility: hidden;
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        gap: 1rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 100;
-        background-color: #1c1c1c;
-        padding: 3rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-    }
-    .nav.visible {
-        opacity: 1;
-        visibility: visible;
-    }
-    .menu-list {
-        flex-direction: column;
-        align-items: end;
-    }
-    .menu-list li a {
-        color: #ecececec;
-    }
 
 
 
@@ -297,6 +262,49 @@ footer {
     .presentacion-img p {
         text-align: left;
         padding-right: 20px;
+    }
+
+    /*menu hamburguesa*/
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 2rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .abrir-menu{
+        color: #00FFFF;
+    }
+    .cerrar-menu{
+        color: #ff6b6b;
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 100;
+        background-color: #1c1c1c;
+        padding: 4rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    .menu-list {
+        flex-direction: column;
+        align-items: end;
+    }
+    .menu-list li a {
+        color: #ecececec;
     }
 
 }
