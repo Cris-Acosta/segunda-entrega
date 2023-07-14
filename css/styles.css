@@ -253,7 +253,7 @@ footer {
         flex-direction: row;
     }
     .presentacion-img img {
-        width: 5000px;
+        width: 3000px;
     }
     .presentacion-img {
         text-align: left;
@@ -264,7 +264,8 @@ footer {
         padding-right: 20px;
     }
 
-    /*menu hamburguesa*/
+ /*menu hamburguesa*/
+ /*
     .abrir-menu,
     .cerrar-menu {
         display: block;
@@ -306,5 +307,5 @@ footer {
     .menu-list li a {
         color: #ecececec;
     }
-
+*/
 }
